@@ -1,0 +1,69 @@
+outer-jobs-route-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobs-bg-container {
+  background-color: #000000;
+}
+
+.horizontal-line {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.menu-container {
+  height: 100vh;
+}
+
+.filter-type-heading {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.jobs-container {
+  padding: 24px;
+}
+
+.loader-container {
+  min-height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.jobs-view-ul {
+  padding: 0;
+}
+
+.radio-btns-ul-element {
+  padding: 0;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-container {
+    height: unset;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-bg-container {
+    display: flex;
+  }
+
+  .menu-container {
+    width: 35%;
+    padding: 24px;
+  }
+
+  .jobs-container {
+    width: 65%;
+  }
+}

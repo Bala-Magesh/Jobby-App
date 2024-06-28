@@ -1,0 +1,9 @@
+.similar-jobs-card {
+  list-style-type: none;
+  background-color: #272727;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 24px;
+  color: white;
+  width: 48%;
+}

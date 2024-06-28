@@ -1,0 +1,10 @@
+.error-container {
+  height: 100vh;
+  color: white;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
